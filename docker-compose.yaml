@@ -28,5 +28,5 @@ services:
       DEBUGGING: "yes"
     ports:
       - "127.0.0.1:8080:8080" # Proxy server
-      - "127.0.0.1:4343:4343" # WebSocket server (talks with implants)
+      - "0.0.0.0:4343:4343" # WebSocket server (talks with implants)
       - "127.0.0.1:8118:8118" # Web panel
